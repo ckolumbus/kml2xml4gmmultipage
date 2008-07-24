@@ -55,10 +55,10 @@ def main(argv=None):
                       help="supress all output (quite)")
     parser.add_option("-l", "--level", dest="folder_level", metavar="", 
                       type="int", default=0,
-                      help="folder level to be used for categories")
+                      help="folder level to be used for categories [default=%default]")
     parser.add_option("-m", "--mindist", dest="mindist", metavar="", 
                       type="float", default=0.0001,
-                      help="minimun distance between two polyline points for the output xml file")
+                      help="minimun distance between two polyline points for the output xml file [default=%default]")
     parser.add_option("-d", "--debug", dest="debug", action="store_true",
                       help="enable debug output messages")
     (g_options, args) = parser.parse_args(argv[1:])
