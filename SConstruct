@@ -10,5 +10,3 @@ env.Package( NAME           = 'kml2xml4gmmultipage',
              SUMMARY        = 'Converter from Google Earth kml to xml for the Joomla Google Maps Multipage component',
              source         = [ './doc/README', './doc/gpl.txt', './bin/kml2xml4gmmultipage' ]
         )
-
-#SConscript('dist/SConscript')
