@@ -1,7 +1,7 @@
 env = Environment(tools=['default', 'packaging'])
 
 #env.Install('/usr/local/bin/', 'kml2xml4gmmultipage')
-env.InstallAs(target = './bin/kml2xml4gmmultipage', source = './kml2xml4gmmultipage.py')
+env.InstallAs(target = './bin/kml2xml4gmmultipage', source = './src/kml2xml4gmmultipage.py')
 
 
 
