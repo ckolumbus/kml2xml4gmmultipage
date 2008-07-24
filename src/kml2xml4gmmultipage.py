@@ -44,8 +44,10 @@ def main(argv=None):
     if argv is None:
         argv = sys.argv
 
-    usage = '''usage: %prog [options] in.kml out.xml'''
-    parser = OptionParser(usage)
+    usage   = '''usage: %prog [options] in.kml out.xml'''
+    version = '''%prog 0.2'''
+
+    parser = OptionParser(usage=usage, version=version)
     parser.set_defaults(verbose=True, execute=False, debug=False)
     parser.add_option("-v", "--verbose", dest="verbose", action="store_true",
                       help="verbose output")
