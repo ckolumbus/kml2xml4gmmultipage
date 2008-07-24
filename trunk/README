@@ -1,0 +1,34 @@
+kml2xml4gmmultipage - a program to generate xml from GoogleEarth .kml files
+  
+
+-- ABOUT -------------------------------------------------------------
+
+This little python program converts Google Earth .kml files to xml files
+suitable as inpunt for the Joomla extension "Google Maps Multipage". 
+
+Categories are automatically generated from a specific Folder level. So you
+can export a .kml file from within Google Earth and generate a complete marker
+set for Joomla that can be either imported into the local marker database or
+linked as exteranl xml fil (see the documentation for the extension). 
+
+
+-- AUTHORS ------------------------------------------------------------
+
+Chris Drexler <chris@drexler-family.com>
+
+
+-- RELATED URLS -------------------------------------------------------
+
+Google Maps Multipage extension for Joomla:
+    http://extensions.joomla.org/component/option,com_mtree/task,viewlink/link_id,5248/Itemid,35/
+
+-- DEPENDENCIES -------------------------------------------------------
+
+Name           Version     URL                                  Remarks
+
+
+-- INSTALLATION --------------------------------------------------------
+
+-- TODO ------- --------------------------------------------------------
+
+* polygons not yet supported, only static markers and polylines
